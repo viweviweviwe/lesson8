@@ -3,6 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ambarodzich/docker-app:v3
+    image: viweviweviwe/bocharov:v3
     ports:
       - "8080:8080"
