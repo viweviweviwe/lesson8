@@ -1,8 +1,5 @@
 services:
   frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
     image: viweviweviwe/bocharov:v3
     ports:
       - "8080:8080"
